@@ -7,6 +7,7 @@ var barWidth = (svgWidth / dataset.length);
 var svg = d3.select('svg')
   .attr("width", svgWidth)
   .attr("height", svgHeight)
+  .style("background-color", "lightblue")
 
 var barChart = svg.selectAll("rect")
   .data(dataset)
@@ -17,5 +18,6 @@ var barChart = svg.selectAll("rect")
   .attr("width", barWidth - barPadding)
   .attr("transform", (d, i) => {
     var translate = [barWidth * i, 0]
-    return "translate("* translate *")"
+    return "translate("+ translate +")"
   })
+  
