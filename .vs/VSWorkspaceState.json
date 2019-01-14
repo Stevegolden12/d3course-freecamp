@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SelectionAndManlipulation"
+    "\\Creating Labels",
+    "\\CreatingASimpleBarChart",
+    "\\DataLoadingAndBinding"
   ],
-  "SelectedNode": "\\SelectionAndManlipulation\\index.html",
+  "SelectedNode": "\\CreatingASimpleBarChart",
   "PreviewInSolutionExplorer": false
 }
