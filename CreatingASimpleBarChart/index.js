@@ -1,3 +1,4 @@
+
 //JavaScript
 var dataset = [80, 100, 56, 120, 180, 30, 40, 120, 160];
 
@@ -18,6 +19,5 @@ var barChart = svg.selectAll("rect")
   .attr("width", barWidth - barPadding)
   .attr("transform", (d, i) => {
     var translate = [barWidth * i, 0]
-    return "translate("+ translate +")"
+    return "translate(" + translate + ")"
   })
-  
