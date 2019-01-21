@@ -3,11 +3,12 @@
     "",
     "\\Axes",
     "\\Creating Labels",
+    "\\CreatingAPieChart",
     "\\CreatingASimpleBarChart",
     "\\CreatingSVGElements",
     "\\DataLoadingAndBinding",
     "\\Scales"
   ],
-  "SelectedNode": "\\CreatingASimpleBarChart\\index.css",
+  "SelectedNode": "\\CreatingASimpleBarChart",
   "PreviewInSolutionExplorer": false
 }
